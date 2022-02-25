@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="204" height="85" viewBox="0 0 204 85">
+  <defs>
+    <filter id="UMWEZI" x="0" y="0" width="204" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#009688" flood-opacity="0.09"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="UMWEZI-2" x="0" y="0" width="204" height="85" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#009688" flood-opacity="0.149" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#UMWEZI)">
+      <text id="UMWEZI-3" data-name="UMWEZI" transform="translate(11 59)" fill="rgba(0,1,10,0.64)" stroke="#009688" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" font-size="47" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">UMWEZI</tspan></text>
+    </g>
+    <text id="UMWEZI-4" data-name="UMWEZI" transform="translate(11 59)" fill="rgba(0,1,10,0.64)" font-size="47" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">UMWEZI</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#UMWEZI-2)">
+      <text id="UMWEZI-5" data-name="UMWEZI" transform="translate(11 59)" fill="#fff" font-size="47" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">UMWEZI</tspan></text>
+    </g>
+    <text id="UMWEZI-6" data-name="UMWEZI" transform="translate(11 59)" stroke="#009688" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" font-size="47" font-family="SegoeUI, Segoe UI" fill="none"><tspan x="0" y="0">UMWEZI</tspan></text>
+  </g>
+</svg>
