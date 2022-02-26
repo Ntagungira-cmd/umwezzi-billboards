@@ -1,4 +1,5 @@
 body {
+  width:100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+:root{
+  --lightblue:#c5e7e4d2;
+  --strongblue:#249D92;
+  --dark:#00010A;
+  --darkblue:#008C7F;
+  --lightdark:#00010a80;
 }

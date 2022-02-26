@@ -1,0 +1,18 @@
+.main{
+    width: 100%!important;
+    background-color: var(--lightblue);
+    margin:auto;
+}
+.content{
+    width:100% !important;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.prom-text{
+    /* width: 50%; */
+    font-weight:400!important;
+}
+span{
+    color: var(--strongblue);
+}
