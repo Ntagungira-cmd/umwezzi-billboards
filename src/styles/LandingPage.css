@@ -1,6 +1,9 @@
 .main{
     width: 100%!important;
-    background-color: var(--lightblue);
+    background-image: url("../assets/Path1.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /* overflow:auto; */
     margin:auto;
 }
 .content{
