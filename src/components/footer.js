@@ -52,19 +52,19 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="follow">
-          <h4 className="title">Follow us on</h4>
+        <div className="contact">
+          <h4 className="title">Contact us</h4>
           <ul>
             <li>
               <Link to="#">
-                <BsFacebook />
+                (+250)781351171
               </Link>
             </li>
             <li>
-              <Link to="#">Contact us</Link>
+              <Link to="#">umwezimediaconsult@gmail.com</Link>
             </li>
             <li>
-              <Link to="#">How it works</Link>
+              <Link to="#">Nyabugogo</Link>
             </li>
           </ul>
         </div>
