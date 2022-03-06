@@ -69,3 +69,45 @@ span{
     border-radius: 25px;
     width:40%;
 } 
+.howItWorks{
+text-align: center;
+}
+.howItWorks p{
+    font-size: 12px;
+    color: var(--lightdark);
+}
+.instructions{
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 10px;
+    background-image: url("../assets/Component1.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.createAccount{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    text-align: left;
+    margin-top: 40px;
+}
+.createAccount h5{
+    display: inline;
+}
+.accountInstruction{
+    width:30%;
+    height: fit-content;
+    margin-top: 100px;
+    padding: 3px;    
+   
+}
+.subdiv{
+ border: 1px solid var(--lightdark);
+ border-radius: 15px;
+ margin-top: 10px;
+}
+.billboard{
+float: left;
+}

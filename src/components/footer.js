@@ -82,8 +82,12 @@ export default function Footer() {
           <span>UmweziMediaConsult </span>@ 2022 all Rights Reserved
         </p>
         <div>
-          <Link to="#">Privacy Policy</Link>
-          <Link to="#">Terms and Conditions</Link>
+          <Link className="footerlinks" to="#">
+            Privacy Policy
+          </Link>
+          <Link className="footerlinks" to="#">
+            Terms and Conditions
+          </Link>
         </div>
       </div>
     </div>

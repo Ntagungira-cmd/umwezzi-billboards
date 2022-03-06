@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="260" height="1232.163" viewBox="0 0 260 1232.163">
-  <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(0 3)">
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="500" viewBox="0 0 260 1232.163">
+  <g id="Component_1_1" data-name="Component1" transform="translate(0 3)">
     <line id="Line_1" data-name="Line 1" y2="783" transform="translate(27.5)" fill="none" stroke="rgba(0,1,10,0.05)" stroke-linecap="round" stroke-width="6"/>
     <circle id="Ellipse_6" data-name="Ellipse 6" cx="27.5" cy="27.5" r="27.5" transform="translate(0 123.5)" fill="#fff"/>
     <g id="Ellipse_8" data-name="Ellipse 8" transform="translate(5 128.5)" fill="#fff" stroke="rgba(1,2,16,0.1)" stroke-width="6">

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="103" viewBox="0 0 103 103">
+  <defs>
+    <filter id="Rectangle_7" x="0" y="0" width="103" height="103" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#009688" flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_7)">
+      <g id="Rectangle_7-2" data-name="Rectangle 7" transform="translate(9 6)" fill="rgba(0,150,136,0.15)" stroke="rgba(0,150,136,0.13)" stroke-width="1">
+        <rect width="85" height="85" rx="16" stroke="none"/>
+        <rect x="0.5" y="0.5" width="84" height="84" rx="15.5" fill="none"/>
+      </g>
+    </g>
+    <g id="webcam-line" transform="translate(18.73 18.73)">
+      <path id="Path_11" data-name="Path 11" d="M0,0H47.54V47.54H0Z" fill="none"/>
+      <path id="Path_12" data-name="Path 12" d="M21.089,42.4V40.185C11.853,39.154,5,33.044,5,25.84V15.49C5,7.487,13.4,1,23.77,1S42.54,7.487,42.54,15.49V25.84c0,7.2-6.853,13.314-16.089,14.345V42.4H37.177v4.14H10.363V42.4ZM23.77,5.14c-7.4,0-13.407,4.634-13.407,10.35V25.84c0,5.716,6,10.35,13.407,10.35s13.407-4.634,13.407-10.35V15.49C37.177,9.774,31.175,5.14,23.77,5.14Zm0,12.42c1.481,0,2.681-.927,2.681-2.07s-1.2-2.07-2.681-2.07-2.681.927-2.681,2.07S22.289,17.56,23.77,17.56Zm0,4.14c-4.443,0-8.044-2.78-8.044-6.21s3.6-6.21,8.044-6.21,8.044,2.78,8.044,6.21S28.213,21.7,23.77,21.7Z" transform="translate(0 0)" fill="rgba(0,150,136,0.79)"/>
+    </g>
+  </g>
+</svg>

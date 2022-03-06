@@ -1,6 +1,9 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import webCam from "../assets/Component2.svg";
+import billboard from "../assets/billboard-logo-png.svg";
+import bg from "../assets/Component1.svg";
 import "../styles/LandingPage.css";
 import { IoDiscSharp } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
@@ -52,6 +55,28 @@ function LandingPage() {
               type="video/webm"
             />
           </video> */}
+          </div>
+        </div>
+      </div>
+      <div className="howItWorks">
+        <h1>How it all works</h1>
+        <p>Follow these steps to get startes with our services</p>
+        <div className="instructions">
+          {/* <div><img src={bg} alt="background"/></div> */}
+          <div className="createAccount">
+            <div className="accountInstruction">
+              <h5>connect and create your account</h5>
+              <div className="subdiv">
+                <img src={webCam} alt="camera" width="60" height="60" />
+                <p>
+                  To create your account you have to fill in the required
+                  personal details to create an account.
+                </p>
+              </div>
+            </div>
+            <div className="billboard">
+              <img src={billboard} alt="billboard" width="250" height="300" />
+            </div>
           </div>
         </div>
       </div>
