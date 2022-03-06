@@ -1,0 +1,11 @@
+<svg id="Component_3_1" data-name="Component 3 – 1" xmlns="http://www.w3.org/2000/svg" width="45" height="511" viewBox="0 0 45 511">
+  <line id="Line_2" data-name="Line 2" y2="406" transform="translate(22.5 52.5)" fill="none" stroke="rgba(0,1,10,0.05)" stroke-linecap="round" stroke-width="6"/>
+  <g id="Ellipse_11" data-name="Ellipse 11" fill="#fff" stroke="rgba(1,2,16,0.1)" stroke-width="6">
+    <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+    <circle cx="22.5" cy="22.5" r="19.5" fill="none"/>
+  </g>
+  <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(0 466)" fill="#fff" stroke="#009688" stroke-width="11">
+    <circle cx="22.5" cy="22.5" r="22.5" stroke="none"/>
+    <circle cx="22.5" cy="22.5" r="17" fill="none"/>
+  </g>
+</svg>

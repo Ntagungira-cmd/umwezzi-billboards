@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import webCam from "../assets/Component2.svg";
 import billboard from "../assets/billboard-logo-png.svg";
-import bg from "../assets/Component1.svg";
+// import bg from "../assets/Component1.svg";
 import "../styles/LandingPage.css";
 import { IoDiscSharp } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
@@ -76,6 +76,17 @@ function LandingPage() {
             </div>
             <div className="billboard">
               <img src={billboard} alt="billboard" width="250" height="300" />
+            </div>
+          </div>
+          <div className="otherInstructions">
+            <div className="Holder">
+              <h5>View all available boards</h5>
+              <div className="subdiv">
+                <p>
+                  After completely creating you account then you will be able to
+                  see all available boards for rent with corresponding prices
+                </p>
+              </div>
             </div>
           </div>
         </div>

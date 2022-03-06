@@ -83,7 +83,6 @@ text-align: center;
     background-image: url("../assets/Component1.svg");
     background-size: auto;
     background-repeat: no-repeat;
-    width: 100%;
 }
 .createAccount{
     display: flex;
@@ -105,9 +104,26 @@ text-align: center;
 }
 .subdiv{
  border: 1px solid var(--lightdark);
+ padding: 10px;
  border-radius: 15px;
  margin-top: 10px;
 }
 .billboard{
 float: left;
+}
+.otherInstructions{
+    width:100%;
+    height: 100px;
+}
+.Holder{
+    background-image: url("../assets/Component3.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width:30%;
+    height: fit-content;
+    margin-top: 100px;
+    padding: 3px;
+    float: right;
+    text-align: right;   
 }
