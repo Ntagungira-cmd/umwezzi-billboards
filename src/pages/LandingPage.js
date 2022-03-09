@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import webCam from "../assets/Component2.svg";
 import billboard from "../assets/billboard-logo-png.svg";
-// import bg from "../assets/Component1.svg";
+import board from "../assets/board.svg";
 import "../styles/LandingPage.css";
 import { IoDiscSharp } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
@@ -82,9 +82,20 @@ function LandingPage() {
             <div className="Holder">
               <h5>View all available boards</h5>
               <div className="subdiv">
+                <img src={board} alt="camera" width="60" height="60" />
                 <p>
                   After completely creating you account then you will be able to
                   see all available boards for rent with corresponding prices
+                </p>
+              </div>
+            </div>
+            <div className="Holder2">
+              <h5>Connect and create a free account</h5>
+              <div className="subdiv">
+                <img src={webCam} alt="camera" width="60" height="60" />
+                <p>
+                  Now everything is simple and away forward just select the
+                  desired board book and pay online in a few steps.
                 </p>
               </div>
             </div>
