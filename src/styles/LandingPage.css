@@ -138,3 +138,10 @@ float: left;
     text-align: left;
     margin-top: 150px; 
 }
+.footerContent{
+    width: 100%;
+    background-image: url("../assets/background.png");
+}
+.poster{
+    width: 40%;
+}

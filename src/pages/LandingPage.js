@@ -4,6 +4,7 @@ import Footer from "../components/footer";
 import webCam from "../assets/Component2.svg";
 import billboard from "../assets/billboard-logo-png.svg";
 import board from "../assets/board.svg";
+import poster from "../assets/Get in touch-rafiki.svg";
 import "../styles/LandingPage.css";
 import { IoDiscSharp } from "react-icons/io5";
 import { BsTelephone } from "react-icons/bs";
@@ -79,7 +80,6 @@ function LandingPage() {
             </div>
           </div>
           <div className="otherInstructions">
-            
             <div className="Holder2">
               <h5>Connect and create a free account</h5>
               <div className="subdiv">
@@ -104,7 +104,14 @@ function LandingPage() {
           </div>
         </div>
       </div>
-      <Footer />
+      <div className="footerContent">
+        <div className="formHolder">
+          <div className="poster"></div>
+          <img src={poster} alt="poster"/>
+          </div>
+
+        <Footer />
+      </div>
     </div>
   );
 }
