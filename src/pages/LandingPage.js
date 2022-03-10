@@ -79,16 +79,7 @@ function LandingPage() {
             </div>
           </div>
           <div className="otherInstructions">
-            <div className="Holder">
-              <h5>View all available boards</h5>
-              <div className="subdiv">
-                <img src={board} alt="camera" width="60" height="60" />
-                <p>
-                  After completely creating you account then you will be able to
-                  see all available boards for rent with corresponding prices
-                </p>
-              </div>
-            </div>
+            
             <div className="Holder2">
               <h5>Connect and create a free account</h5>
               <div className="subdiv">
@@ -96,6 +87,17 @@ function LandingPage() {
                 <p>
                   Now everything is simple and away forward just select the
                   desired board book and pay online in a few steps.
+                </p>
+              </div>
+            </div>
+
+            <div className="Holder">
+              <h5>View all available boards</h5>
+              <div className="subdiv">
+                <img src={board} alt="camera" width="60" height="60" />
+                <p>
+                  After completely creating you account then you will be able to
+                  see all available boards for rent with corresponding prices
                 </p>
               </div>
             </div>
