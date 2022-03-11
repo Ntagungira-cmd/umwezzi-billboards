@@ -142,6 +142,13 @@ float: left;
     width: 100%;
     background-image: url("../assets/background.png");
 }
+.formHolder{
+    display: flex;
+    justify-content: space-around;
+}
 .poster{
     width: 40%;
+}
+.posterImg{
+    width: 100%;
 }

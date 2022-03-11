@@ -106,10 +106,10 @@ function LandingPage() {
       </div>
       <div className="footerContent">
         <div className="formHolder">
-          <div className="poster"></div>
-          <img src={poster} alt="poster"/>
+          <div className="poster">
+            <img className="posterImg" src={poster} alt="poster" />
           </div>
-
+        </div>
         <Footer />
       </div>
     </div>
