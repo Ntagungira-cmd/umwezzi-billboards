@@ -152,3 +152,16 @@ float: left;
 .posterImg{
     width: 100%;
 }
+.contactForm{
+    width: 40%;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: right;
+}
+.form{
+    display: flex;
+    justify-content: space-around;
+}
+.formTitle{
+    margin-bottom: 30px!important;
+}

@@ -109,6 +109,27 @@ function LandingPage() {
           <div className="poster">
             <img className="posterImg" src={poster} alt="poster" />
           </div>
+          <div className="contactForm">
+            <h3 className="formTitle">Lets get in touch</h3>
+            <form className="row g-2 form">
+              <div className="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="full names"
+                  required
+                ></input>
+              </div>
+              <div className="col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="email address"
+                  required
+                ></input>
+              </div>
+            </form>
+          </div>
         </div>
         <Footer />
       </div>
