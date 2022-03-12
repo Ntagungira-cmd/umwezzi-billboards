@@ -115,19 +115,22 @@ function LandingPage() {
               <div className="col-md-6">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="full names"
                   required
-                ></input>
+                />
               </div>
               <div className="col-md-6">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="email address"
                   required
-                ></input>
+                />
               </div>
+              <di className="col-md-12">
+                <textarea className="form-control" rows="4" cols="50"></textarea>
+              </di>
             </form>
           </div>
         </div>
