@@ -154,14 +154,24 @@ float: left;
 }
 .contactForm{
     width: 40%;
-    margin-top: 30px;
+    margin-top: 80px;
     padding: 10px;
     text-align: right;
 }
 .form{
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
 }
 .formTitle{
     margin-bottom: 30px!important;
+}
+.Submit{
+    padding:10px;
+    background-color: var(--darkblue);
+    border:none;
+    border-radius: 25px;
+    color:white;
+    width:100%;
+    font-weight: 500;
 }

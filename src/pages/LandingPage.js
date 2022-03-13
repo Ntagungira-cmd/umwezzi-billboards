@@ -129,8 +129,17 @@ function LandingPage() {
                 />
               </div>
               <di className="col-md-12">
-                <textarea className="form-control" rows="4" cols="50"></textarea>
+                <textarea
+                  className="form-control"
+                  rows="4"
+                  cols="50"
+                ></textarea>
               </di>
+              <div className="col-md-6">
+                <button type="submit" className="Submit">
+                  submit message
+                </button>
+              </div>
             </form>
           </div>
         </div>
