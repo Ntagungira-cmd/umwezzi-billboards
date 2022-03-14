@@ -16,6 +16,10 @@
     justify-content: space-around;
     margin:50px auto;
 }
+.video{
+    width:420px;
+    height: 320px;;
+}
 .prom-text{
     /* width: 50%; */
     font-weight:400!important;

@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Video from "../components/Video";
 import webCam from "../assets/Component2.svg";
 import billboard from "../assets/billboard-logo-png.svg";
 import board from "../assets/board.svg";
@@ -46,16 +47,7 @@ function LandingPage() {
             </div>
           </div>
           <div className="video">
-            <video width="400" height="350">
-            <source
-              src="../../public/resources/React App - Google Chrome 2022-01-19 10-11-52.mp4"
-              type="videos/mp4"
-            />
-            <source
-              src="../../public/resources/React App - Google Chrome 2022-01-19 10-11-52.webm"
-              type="video/webm"
-            />
-          </video>
+            <Video/>
           </div>
         </div>
       </div>
