@@ -46,7 +46,7 @@ function LandingPage() {
             </div>
           </div>
           <div className="video">
-            {/* <video width="400" height="350">
+            <video width="400" height="350">
             <source
               src="../../public/resources/React App - Google Chrome 2022-01-19 10-11-52.mp4"
               type="videos/mp4"
@@ -55,7 +55,7 @@ function LandingPage() {
               src="../../public/resources/React App - Google Chrome 2022-01-19 10-11-52.webm"
               type="video/webm"
             />
-          </video> */}
+          </video>
           </div>
         </div>
       </div>
