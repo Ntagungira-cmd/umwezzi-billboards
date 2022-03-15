@@ -9,7 +9,7 @@ function Video() {
             controls={true}
             src={source}
             poster={poster}
-            width="340"
+            width="330"
             height="260"
         />
     )
