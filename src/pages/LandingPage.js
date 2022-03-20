@@ -47,7 +47,7 @@ function LandingPage() {
             </div>
           </div>
           <div className="video">
-            <Video/>
+            <Video />
           </div>
         </div>
       </div>
@@ -120,13 +120,14 @@ function LandingPage() {
                   required
                 />
               </div>
-              <di className="col-md-12">
+              <div className="col-md-12">
                 <textarea
                   className="form-control"
+                  placeholder="your message"
                   rows="4"
                   cols="50"
                 ></textarea>
-              </di>
+              </div>
               <div className="col-md-6">
                 <button type="submit" className="Submit">
                   submit message
