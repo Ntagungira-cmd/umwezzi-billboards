@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Video from "../components/Video";
+//import Video from "../components/Video";
 import webCam from "../assets/Component2.svg";
 import billboard from "../assets/billboard-logo-png.svg";
 import board from "../assets/board.svg";
 import poster from "../assets/Get in touch-rafiki.svg";
 import "../styles/LandingPage.css";
-import { IoDiscSharp } from "react-icons/io5";
-import { BsTelephone } from "react-icons/bs";
-import { Link } from "react-router-dom";
+// import { IoDiscSharp } from "react-icons/io5";
+// import { BsTelephone } from "react-icons/bs";
+// import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
