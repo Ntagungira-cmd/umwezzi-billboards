@@ -46,9 +46,9 @@ function LandingPage() {
               </button>
             </div>
           </div> */}
-          <div className="video">
+          {/* <div className="video">
             <Video />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="howItWorks">
