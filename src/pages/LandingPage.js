@@ -17,7 +17,7 @@ function LandingPage() {
       <div className="main">
         <Header />
         <div className="content">
-          <div className="text">
+          {/* <div className="text">
             <h1 className="prom-text">
               Advertising with <br />
               <span>Umwezi Media Consult</span>
@@ -45,7 +45,7 @@ function LandingPage() {
                 </Link>
               </button>
             </div>
-          </div>
+          </div> */}
           <div className="video">
             <Video />
           </div>
