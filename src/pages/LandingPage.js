@@ -10,7 +10,6 @@ import "../styles/LandingPage.css";
 // import { IoDiscSharp } from "react-icons/io5";
 // import { BsTelephone } from "react-icons/bs";
 // import { Link } from "react-router-dom";
-
 function LandingPage() {
   return (
     <div className="contain">
