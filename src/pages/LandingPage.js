@@ -52,7 +52,7 @@ function LandingPage() {
       </div>
       <div className="howItWorks">
         <h1>How it all works</h1>
-        <p>Follow these steps to get startes with our services</p>
+        <p>Follow these steps to get started with our services</p>
         <div className="instructions">
           {/* <div><img src={bg} alt="background"/></div> */}
           <div className="createAccount">
