@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 function LandingPage() {
   return (
     <div className="contain">
-      <div className="main">
+      <div className="mainCont">
         <Header />
         <div className="content">
           <div className="text">
@@ -39,7 +39,7 @@ function LandingPage() {
                 <p id="toolTipTextTwo">umwezimediaconsult@gmail.com</p>
               </div>
               <button className="getStarted">
-                <Link to="#" className="login">
+                <Link to="#" className="loginBtn">
                   Get started today
                 </Link>
               </button>
@@ -102,7 +102,7 @@ function LandingPage() {
           </div>
           <div className="contactForm">
             <h3 className="formTitle">Lets get in touch</h3>
-            <form className="row g-2 form">
+            <form className="row g-2 formContact">
               <div className="col-md-6">
                 <input
                   type="text"
