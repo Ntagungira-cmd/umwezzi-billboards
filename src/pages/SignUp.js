@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import {useNavigate} from "react-router"
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { register } from "../slices/auth";
@@ -9,7 +10,9 @@ import pic from "../assets/Get in touch-rafiki.svg";
 
 function SignUp() {
   const phone = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
+  let navigate = useNavigate();
   const [successful, setSuccessful] = useState(false);
+  const [isLoading, setIsloading] = useState(false);
   const { message } = useSelector((state) => state.message);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -17,14 +20,14 @@ function SignUp() {
   }, [dispatch]);
 
   const initialValues = {
-    name: "",
+    names: "",
     email: "",
     phone: "",
     password: "",
   };
 
   const validationSchema = Yup.object().shape({
-    name: Yup.string()
+    names: Yup.string()
       .max(30, "Must be 30 characters or5 less")
       .required("Name is Required"),
     email: Yup.string()
@@ -39,15 +42,19 @@ function SignUp() {
   });
 
   const handleRegister = (formValue) => {
-    const { username, email, phone, password } = formValue;
+    const { names, email, phone, password } = formValue;
     setSuccessful(false);
-    dispatch(register({ username, email, phone, password }))
+    setIsloading(true);
+    dispatch(register({ names, email, phone, password }))
       .unwrap()
       .then(() => {
         setSuccessful(true);
+        setIsloading(false);
+        navigate("/login");
       })
       .catch(() => {
         setSuccessful(false);
+        setIsloading(false);
       });
   };
 
@@ -68,23 +75,23 @@ function SignUp() {
               {!successful && (
                 <>
                   <div className="mb-3">
-                    <label for="InputName" className="form-label label">
+                    <label htmlFor="InputName" className="form-label label">
                       Name
                     </label>
                     <Field
                       type="text"
-                      name="name"
+                      name="names"
                       className="form-control input"
                       id="InputName"
                     />
                     <ErrorMessage
-                      name="name"
+                      name="names"
                       component="div"
                       className="alert-danger"
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="InputEmail" className="form-label label">
+                    <label htmlFor="InputEmail" className="form-label label">
                       Email
                     </label>
                     <Field
@@ -100,7 +107,7 @@ function SignUp() {
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="InputPhone" className="form-label label">
+                    <label htmlFor="InputPhone" className="form-label label">
                       Phone
                     </label>
                     <Field
@@ -116,7 +123,7 @@ function SignUp() {
                     />
                   </div>
                   <div className="mb-4">
-                    <label for="Password" className="form-label label">
+                    <label htmlFor="Password" className="form-label label">
                       Password
                     </label>
                     <Field
@@ -131,9 +138,12 @@ function SignUp() {
                       className="alert-danger"
                     />
                   </div>
-                  <div class="mb-3">
-                    <button type="submit" class="mb-3 text">
+                  <div className="mb-3">
+                    <button type="submit" className="mb-3 text">
                       Log In
+                      {isLoading && (
+                        <span className="spinner-border spinner-border-sm loader"></span>
+                      )}
                     </button>
                   </div>
                 </>
