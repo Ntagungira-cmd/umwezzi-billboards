@@ -1,5 +1,4 @@
 import axios from "axios";
-import authHeader from "./data.Service";
 
 const API_URL = "https://umwezi-bill-boards-backend.herokuapp.com/api/v1/users";
 const register = (names, email, phone, password) => {
