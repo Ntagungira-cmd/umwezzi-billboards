@@ -140,7 +140,7 @@ function SignUp() {
                   </div>
                   <div className="mb-3">
                     <button type="submit" className="mb-3 text">
-                      Log In
+                      sign Up
                       {isLoading && (
                         <span className="spinner-border spinner-border-sm loader"></span>
                       )}

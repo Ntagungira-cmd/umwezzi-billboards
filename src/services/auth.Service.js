@@ -1,4 +1,6 @@
 import axios from "axios";
+import authHeader from "./data.Service";
+
 const API_URL = "https://umwezi-bill-boards-backend.herokuapp.com/api/v1/users";
 const register = (names, email, phone, password) => {
   return axios.post(API_URL + "/register", {
@@ -6,12 +8,25 @@ const register = (names, email, phone, password) => {
     email,
     phone,
     password,
-  }).then((res)=>{
-    console.log(res);
-  })
+  });
+};
+
+const login = (emailOrPhone, password) => {
+  return axios
+    .post(API_URL + "/login", {
+      emailOrPhone,
+      password,
+    })
+    .then((response) => {
+      if (response.data.token) {
+        localStorage.setItem("userData", JSON.stringify(response.data.user));
+      }
+      return response.data
+    });
 };
 
 const authService = {
   register,
+  login,
 };
 export default authService;
