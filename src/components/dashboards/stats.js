@@ -15,7 +15,7 @@ export default function stats() {
     <>
 
 
-<div className="container-fluid py-4">
+<div className="container-fluid py-4 w-80">
       <div className="row">
         <div className="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div className="card">

@@ -6,9 +6,14 @@ import Stats from './stats';
 export default function adminDashboard() {
   return (
     <>
-        <div>{<SideNav/>}</div>
+    <body>
+    <div>{<SideNav/>}</div>
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">  
         <div>{<Navbar/>}</div>
         <div>{<Stats/>}</div>
+    </main>
+    </body>
+       
     </>
   )
 }
