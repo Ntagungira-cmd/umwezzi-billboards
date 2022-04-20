@@ -10,8 +10,7 @@ import Admin from "./pages/Admin";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={ <LandingPage />}/>   
+      <Routes>  
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signUp" element={<SignUp />} />
