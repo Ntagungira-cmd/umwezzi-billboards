@@ -1,5 +1,5 @@
-import React from 'react';
-import Header from '../components/header';
+import React from "react";
+import Header from "../components/header";
 import Footer from "../components/footer";
 import Video from "../components/Video";
 import webCam from "../assets/Component2.svg";
@@ -16,8 +16,8 @@ function LandingPage() {
       <div className="mainCont">
         <Header />
         <div className="content">
-          <div className="text">
-            <h1 className="prom-text">
+          <div className="textCont">
+            <h1 className="prom-text prom-text-color">
               Advertising with <br />
               <span>Umwezi Media Consult</span>
               <br />
@@ -51,13 +51,13 @@ function LandingPage() {
         </div>
       </div>
       <div className="howItWorks">
-        <h1>How it all works</h1>
+        <h1 className="prom-text prom-text-color">How it all works</h1>
         <p>Follow these steps to get started with our services</p>
         <div className="instructions">
           {/* <div><img src={bg} alt="background"/></div> */}
           <div className="createAccount">
             <div className="accountInstruction">
-              <h5>connect and create your account</h5>
+              <h5 prom-text-color>connect and create your account</h5>
               <div className="subdiv">
                 <img src={webCam} alt="camera" width="60" height="60" />
                 <p>
@@ -72,7 +72,9 @@ function LandingPage() {
           </div>
           <div className="otherInstructions">
             <div className="Holder2">
-              <h5>Connect and create a free account</h5>
+              <h5 className="prom-text-color">
+                Connect and create a free account
+              </h5>
               <div className="subdiv">
                 <img src={webCam} alt="camera" width="60" height="60" />
                 <p>
@@ -83,7 +85,7 @@ function LandingPage() {
             </div>
 
             <div className="Holder">
-              <h5>View all available boards</h5>
+              <h5 className="prom-text-color">View all available boards</h5>
               <div className="subdiv">
                 <img src={board} alt="camera" width="60" height="60" />
                 <p>
@@ -101,7 +103,7 @@ function LandingPage() {
             <img className="posterImg" src={poster} alt="poster" />
           </div>
           <div className="contactForm">
-            <h3 className="formTitle">Lets get in touch</h3>
+            <h3 className="formTitle ">Lets get in touch</h3>
             <form className="row g-2 formContact">
               <div className="col-md-6">
                 <input

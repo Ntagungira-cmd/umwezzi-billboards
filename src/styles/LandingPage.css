@@ -1,6 +1,6 @@
 .contain{
- margin: 0 0 0 0!important;
- padding: 0 0 0 0!important;
+    margin: 0 0 0 0!important;
+    padding: 0 0 0 0!important;
 }
 .mainCont{
     width: 100%!important;
@@ -15,34 +15,40 @@
     display: flex;
     /* flex-wrap: wrap;
     flex-direction: row; */
-    justify-content: space-around!important;
-    margin:50px auto;
+    justify-content: space-around;
+    /* margin:50px; */
+}
+.textCont{
+    width: 55%;
 }
 .video{
-    width:420px;
+    width:35%;
     height: 320px;;
 }
 .prom-text{
     /* width: 50%; */
     font-weight:400!important;
 }
+.prom-text-color{
+    color:rgba(0, 0, 0, 0.795);
+}
 span{
-    color: var(--darkblue);
+    color: var(--darkblue)!important;
 }
 .disc{
     font-size: 30px;
-    color: var(--darkblue);
+    color: var(--darkblue)!important;
 }
 .toolTip{
     display: flex;
     justify-content: space-between;
     width:85%;
-    background-color: white;
+    background-color: white!important;
     padding: 5px;
     border-radius: 30px;
 }
 .callButton{
-    background-color: var(--darkblue);
+    background-color: var(--darkblue)!important;
     color: white;
     font-size: 20px;
     width: 50px;
@@ -58,7 +64,7 @@ span{
     font-weight: 600;
 }
 #toolTipTextOne{
-    color: var(--lightdark);
+    color: var(--lightdark)!important;
     margin: 3px auto 0 auto;
 }
 #toolTipTextTwo{
@@ -67,13 +73,13 @@ span{
 .loginBtn{
     font-weight: 500;
     text-decoration: none;
-    color:white;
+    color:white!important;
 }
 .loginBtn:hover{
-    color:white;
+    color:white!important;
 }
 .getStarted{
-    background-color: var(--darkblue);
+    background-color: var(--darkblue)!important;
     border:none;
     border-radius: 25px;
     width:40%;
@@ -83,7 +89,7 @@ text-align: center;
 }
 .howItWorks p{
     font-size: 12px;
-    color: var(--lightdark);
+    color: var(--lightdark)!important;
     box-sizing: border-box!important;
 }
 .instructions{
@@ -115,11 +121,11 @@ text-align: center;
    
 }
 .subdiv{
- border: 1px solid var(--lightdark);
- padding: 10px;
- border-radius: 15px;
- margin-top: 10px;
- text-align: left!important;
+    border: 1px solid var(--lightdark);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+    text-align: left!important;
 }
 .billboard{
 float: left;
@@ -174,13 +180,14 @@ float: left;
 }
 .formTitle{
     margin-bottom: 30px!important;
+    font-weight: 400;
 }
 .Submit{
     padding:10px;
     background-color: var(--darkblue);
     border:none;
     border-radius: 25px;
-    color:white;
+    color:white!important;
     width:100%;
     font-weight: 500;
 }

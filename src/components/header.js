@@ -40,7 +40,7 @@ function Header() {
           signup
         </Link>
         <button className="loginbutton">
-          <Link className="login" to="#">
+          <Link className="loginLink" to="#">
             Login
           </Link>
         </button>
