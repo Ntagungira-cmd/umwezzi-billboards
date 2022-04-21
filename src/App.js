@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import ResetPass from "./pages/ResetPass";
 import { Routes, Route } from "react-router-dom";
-// import Admin from "./pages/Admin";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signUp" element={<SignUp />} />
-        {/* <Route path="/adminboard" element={ <Admin/>}/>  */}
+        <Route path="/admin" element={ <Admin/>}/> 
         <Route path="/resetPass" element={<ResetPass />} />
       </Routes>
     </div>
