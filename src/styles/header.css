@@ -9,13 +9,13 @@
 }
 .link{
     color:var(--dark)!important;
-    font-weight: 495;
+    font-weight: 500;
     text-decoration: none;
     /* margin: auto; */
 }
 .link:hover{
     color: var(--darkblue)!important;
-    font-weight: 510;
+    font-weight: 600;
     }
 .logo{
     margin-left: auto;
@@ -47,7 +47,7 @@
 .signup:hover{
     color:var(--dark)
 }
-.login:hover{
+.loginLink:hover{
     color: white;
 
 }

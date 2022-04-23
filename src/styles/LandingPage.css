@@ -45,6 +45,7 @@ span{
     width:85%;
     background-color: white!important;
     padding: 5px;
+    height: 60px;
     border-radius: 30px;
 }
 .callButton{
