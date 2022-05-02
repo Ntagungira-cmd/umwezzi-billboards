@@ -5,11 +5,11 @@ import cardCover from "../assets/figma-neumorphism-cards.jpg";
 
 function board(props) {
   return (
-    <div className="card cardSize">
+    <div className="card">
       <img
         src={cardCover}
         alt="Board Poster"
-        className="card-img-top cardCover"
+        className="card-img-top imageSize"
       />
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
