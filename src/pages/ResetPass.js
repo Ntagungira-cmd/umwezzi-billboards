@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Auth.css";
 import pic from "../assets/Get in touch-rafiki.svg";
+import * as Yup from "yup";
+import { Formik, Field, Form, ErrorMessage } from "formik";
 
 function ResetPass() {
   return (
